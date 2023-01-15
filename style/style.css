@@ -1,0 +1,53 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.mainframe {
+    width: max-content;
+    padding: 25px;
+    border-radius: 25px;
+    box-shadow:0 4px 16px skyblue;
+}
+.main{
+    padding: 25px;
+}
+.labelpass{
+    width: 200px;
+}
+.form-group{
+    display: block;
+}
+
+#adress{
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.form-group{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 15px;
+}
+.sex-group-radio{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.form-group-button{
+    display: flex;
+    padding-right: unset;
+    /*margin: 0 auto;*/
+}
+.buttonss{
+    margin-left: 45px;
+    margin-top: 10px;
+}
+.form-group-checkbox{
+    font-size: 14px;
+    text-align: center;
+}
